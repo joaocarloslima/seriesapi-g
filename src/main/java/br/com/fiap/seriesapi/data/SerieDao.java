@@ -32,4 +32,18 @@ public class SerieDao {
 		return series;
 	}
 
+	public Serie findById(Long id) {
+		return series.get(0);
+	}
+
+	public void create(Serie serie) {
+		// INSERT INTO ....
+		
+	}
+
+	public void update(Serie serie) {
+		// UPDATE Serie SET ....
+		
+	}
+
 }
